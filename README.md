@@ -7,12 +7,12 @@ HTML
 
 CSS
 
-📂 Files
+📂 Files<br>
 index.html – Structure of the page
 
 style.css – Styling
 
 Image files – Dish images
 
-💡 How to Use
+💡 How to Use<br>
 Open index.html in any browser to view the menu.
