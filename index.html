@@ -1,153 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Menu</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-        }
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Linked external CSS file -->
+  </head>
+  <body>
+    <header>
+      <h1>🍽️ Welcome to Urban Flavors Restaurant 🍽️</h1>
+    </header>
 
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-        }
-
-        .menu-container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .category {
-            margin-bottom: 40px;
-        }
-
-        .category h2 {
-            text-align: center;
-            color: #333;
-        }
-
-        .dish {
-            display: flex;
-            justify-content: space-between;
-            background-color: #fff;
-            border-radius: 8px;
-            margin: 10px 0;
-            padding: 15px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .dish img {
-            width: 150px;
-            height: 100px;
-            object-fit: cover;
-            border-radius: 8px;
-        }
-
-        .dish-info {
-            flex: 1;
-            padding-left: 20px;
-        }
-
-        .price {
-            font-weight: bold;
-            color: #e67e22;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>🍽️ Welcome to Urban Flavors Restaurant 🍽️</h1>
-</header>
-
-<div class="menu-container">
-
-    <!-- Starters Section -->
-    <div class="category">
+    <div class="menu-container">
+      <!-- Starters Section -->
+      <div class="category">
         <h2>Starters</h2>
         <div class="dish">
-            <img src="s.jpg" alt="Spring Rolls">
-            <div class="dish-info">
-                <h3>Spring Rolls</h3>
-                <p>Crunchy rolls stuffed with vegetables, served with a tangy sauce.</p>
-            </div>
-            <div class="price">₹99</div>
+          <img src="s.jpg" alt="Spring Rolls" />
+          <div class="dish-info">
+            <h3>Spring Rolls</h3>
+            <p>
+              Crunchy rolls stuffed with vegetables, served with a tangy sauce.
+            </p>
+          </div>
+          <div class="price">₹99</div>
         </div>
         <div class="dish">
-            <img src="soup.jpg" alt="Hot & Sour Soup">
-            <div class="dish-info">
-                <h3>Hot & Sour Soup</h3>
-                <p>Spicy and tangy soup filled with vegetables and mushrooms.</p>
-            </div>
-            <div class="price">₹89</div>
+          <img src="soup.jpg" alt="Hot & Sour Soup" />
+          <div class="dish-info">
+            <h3>Hot & Sour Soup</h3>
+            <p>Spicy and tangy soup filled with vegetables and mushrooms.</p>
+          </div>
+          <div class="price">₹89</div>
         </div>
-    </div>
+      </div>
 
-    <!-- Main Course Section -->
-    <div class="category">
+      <!-- Main Course Section -->
+      <div class="category">
         <h2>Main Course</h2>
         <div class="dish">
-            <img src="p.jpg" alt="Pasta">
-            <div class="dish-info">
-                <h3>Spaghetti Pasta</h3>
-                <p>Classic Italian pasta with a rich tomato sauce and cheese.</p>
-            </div>
-            <div class="price">₹250</div>
+          <img src="p.jpg" alt="Pasta" />
+          <div class="dish-info">
+            <h3>Spaghetti Pasta</h3>
+            <p>Classic Italian pasta with a rich tomato sauce and cheese.</p>
+          </div>
+          <div class="price">₹250</div>
         </div>
         <div class="dish">
-            <img src="pizza.jpg" alt="Pizza">
-            <div class="dish-info">
-                <h3>Margherita Pizza</h3>
-                <p>Thin crust pizza topped with fresh mozzarella and basil.</p>
-            </div>
-            <div class="price">₹350</div>
+          <img src="pizza.jpg" alt="Pizza" />
+          <div class="dish-info">
+            <h3>Margherita Pizza</h3>
+            <p>Thin crust pizza topped with fresh mozzarella and basil.</p>
+          </div>
+          <div class="price">₹350</div>
         </div>
-    </div>
+      </div>
 
-    <!-- Desserts Section -->
-    <div class="category">
+      <!-- Desserts Section -->
+      <div class="category">
         <h2>Desserts</h2>
         <div class="dish">
-            <img src="c.jpg" alt="Chocolate Cake">
-            <div class="dish-info">
-                <h3>Chocolate Cake</h3>
-                <p>Rich and moist chocolate cake with a creamy frosting.</p>
-            </div>
-            <div class="price">₹150</div>
+          <img src="c.jpg" alt="Chocolate Cake" />
+          <div class="dish-info">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and moist chocolate cake with a creamy frosting.</p>
+          </div>
+          <div class="price">₹150</div>
         </div>
         <div class="dish">
-            <img src="v.jpg" alt="Ice Cream">
-            <div class="dish-info">
-                <h3>Vanilla Ice Cream</h3>
-                <p>Creamy vanilla ice cream served with a chocolate drizzle.</p>
-            </div>
-            <div class="price">₹80</div>
+          <img src="v.jpg" alt="Ice Cream" />
+          <div class="dish-info">
+            <h3>Vanilla Ice Cream</h3>
+            <p>Creamy vanilla ice cream served with a chocolate drizzle.</p>
+          </div>
+          <div class="price">₹80</div>
         </div>
+      </div>
     </div>
 
-</div>
-
-<footer>
-    <p>&copy; 2025 Urban Flavors Restaurant | All rights reserved.</p>
-</footer>
-
-</body>
+    <footer>
+      <p>&copy; 2025 Urban Flavors Restaurant | All rights reserved.</p>
+    </footer>
+  </body>
 </html>
