@@ -1,5 +1,5 @@
-🍽️ Urban Flavors Restaurant Menu
-A simple and stylish restaurant menu built using HTML and CSS.
+🍽️ Urban Flavors Restaurant Menu<br>
+A simple and stylish restaurant menu built using HTML and CSS.<br>
 It displays starters, main course, and desserts with images and prices.
 
 🔧 Tech Used <br>
